@@ -1,0 +1,209 @@
+@media all {
+    .page-break	{ display: none; }
+}
+
+@media print {
+	
+	#container{
+		margin-bottom:0px !important;
+	}
+	
+	div#header_col {
+		display: none;
+	}
+	 
+	 .question-value-tick
+	 {
+		 font-weight:normal;
+	 }
+	    
+	.remove_br{
+		display:none;
+	}
+	
+    .page-break	{ display: block; page-break-before: always; }
+    
+    .printonly { display: block;}
+    
+    h2#header { display:none;}
+    
+    #header_row div.text-right { text-align:left;}
+
+    #quick_look .group_type {
+        background-color: #3e6b9d !important;
+        -webkit-print-color-adjust: exact;
+        color: white !important;
+    }
+
+    #quick_look .group_domain {
+        background-color:#7795BD !important;
+        -webkit-print-color-adjust: exact;
+        color: white !important;
+    }
+
+    #quick_look .group_domain_txt {
+        background-color:#EBEEF5 !important;
+        -webkit-print-color-adjust: exact;
+    }
+
+    #quick_look .box {
+        background-color: #72699b !important;
+        -webkit-print-color-adjust: exact;
+        color: white !important;
+    }
+
+    #quick_look .circle {
+        background-color: #f7ac5e !important;
+        -webkit-print-color-adjust: exact;
+        color: white !important;
+    }
+
+    #quick_look .quicklook_dist_chart li{
+        background-color:#B8B3CD !important;
+        -webkit-print-color-adjust: exact;
+    }
+
+    #quick_look .quicklook_dist_chart li.highest {
+        background-color:#72699B !important;
+        -webkit-print-color-adjust: exact;
+        border-color:#72699B !important;
+    }
+
+    #quick_look .quicklook_ave_chart li {
+        background-color:#D7D3E2 !important;
+        -webkit-print-color-adjust: exact;
+        border-color:#D7D3E2 !important;
+    }
+
+    #quick_look .quicklook_ave_chart li div.ave_value {
+        background-color:#72699B !important;
+        -webkit-print-color-adjust: exact;
+        color:#fff !important;
+    }
+    
+    #quick_look .question_breakdown {
+        padding-bottom:20px;
+    }
+
+    .area_of.strength div{
+        background-color:#6084B0 !important;
+        -webkit-print-color-adjust: exact;
+        color:#fff !important;
+    }
+
+    .area_of.growth div{
+        background-color:#9690B6 !important;
+        -webkit-print-color-adjust: exact;
+        color:#fff !important;
+    }
+
+    .area_of_desc div{
+        background-color:#EDEDEE !important;
+        -webkit-print-color-adjust: exact;
+    }
+
+    .area_of_statement {
+        background-color:#EDEDEE !important;
+        -webkit-print-color-adjust: exact;
+    }
+
+    .standard_scoring div {
+        background-color: #9d94b8 !important;
+        -webkit-print-color-adjust: exact;
+        color: #fff !important;
+    }
+
+    .standard_scoring_results {
+        background-color: #736699 !important;
+        -webkit-print-color-adjust: exact;
+        color:#fff !important;
+    }
+
+    #bar_graph #averages .average_text {
+        background-color:#FAC589 !important;
+        -webkit-print-color-adjust: exact;
+        color:#fff !important;
+    }
+
+    #bar_graph #averages .average_item .number {
+        background-color:#FAC589 !important;
+        -webkit-print-color-adjust: exact;
+        color:#fff !important;
+    }
+
+    #bar_graph #averages .average_item .value {
+        background-color: #f7ac5f !important;
+        -webkit-print-color-adjust: exact;
+        color: #fff !important;
+    }
+
+    #bar_graph #circle {
+        background-color:#f7ac5f !important;
+        -webkit-print-color-adjust: exact;
+    }
+
+    #scatter_plot .desc_title,
+    #comparison_table .desc_title {
+        background-color:#EDEDEE !important;
+        -webkit-print-color-adjust: exact;
+    }
+
+    #bar_graph #averages {
+        width: 1100px;
+    }
+    
+    #bar_graph #average_scores {
+        width: 1100px !important;
+    }
+
+    #bar_graph #averages .average_text {
+        width:180px;
+    }
+
+    #bar_graph #averages .average_item {
+        margin-left:34px;
+    }
+
+    #bar_graph #averages .average_item:nth-child(2) {
+        margin-left:-18px;
+    }
+    
+    #bar_graph #averages .average_item:nth-child(3) {
+        margin-left:-28px;
+    }
+    
+    #bar_graph #averages .average_item:nth-child(4) {
+        margin-left:-28px;
+    }
+    
+    #bar_graph #averages .average_item:nth-child(5) {
+        margin-left:-30px;
+    }
+
+    #quick_look .question {
+        font-size: 80%;
+    }
+
+    #quick_look .chart {
+        max-width: 75%;
+    }
+
+    #bar_graph .block_title {
+        page-break-after: avoid;
+    }
+	/*.container { margin-left: -100px; }*/
+
+    #bar_graph .questionblock,
+    #quick_look .question_breakdown {
+        page-break-inside: avoid;
+    }
+
+    .tab-content > .tab-pane {
+        display: block;
+        visibility: visible;
+    }
+	
+	.printing_btn{
+		display:none;
+	}
+}

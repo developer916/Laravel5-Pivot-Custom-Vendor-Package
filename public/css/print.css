@@ -1,0 +1,55 @@
+@media all {
+    .page-break	{ display: none; }
+}
+
+
+@page {
+  size: A4;
+  margin: 10mm 5mm;
+}
+
+/* Chrome only */
+@media print and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm) {
+    .page-break	{ float:none;display: block; page-break-before: always; }
+}
+
+/* Safari only */
+@media print {
+    ::-webkit-full-page-media, _:future, :root .circle, :root .box, :root .box_last {
+        position: relative;
+        margin-right: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+} 
+
+@media \0print\,print\9 { 
+	html, body {
+		margin-top: 100px;
+	}
+}
+
+@media print and (min-width:0\0) and (min-resolution: +72dpi) {
+	html, body {
+		margin-top: 100px;
+	}
+}
+
+@media print {
+	html, body {
+		width: 210mm;
+		height: 297mm;
+	}
+
+	/* Firefox only */
+	@-moz-document url-prefix() {       
+		html, body {
+			margin-top: 100px;
+		}
+
+	}
+
+	.container .row .col-md-12 {
+		width: 100%;
+	}
+}

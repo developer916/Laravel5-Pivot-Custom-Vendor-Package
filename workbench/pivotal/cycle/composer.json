@@ -1,0 +1,27 @@
+{
+    "name": "pivotal/cycle",
+    "description": "",
+    "authors": [
+        {
+            "name": "Andrew Wolf",
+            "email": "a.james.wolf@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "classmap": [
+            "src/controllers",
+            "src/handlers",
+            "src/migrations",
+            "src/models",
+            "src/models/collections",
+            "src/repositories"
+        ],
+        "psr-0": {
+            "Pivotal\\Cycle\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}

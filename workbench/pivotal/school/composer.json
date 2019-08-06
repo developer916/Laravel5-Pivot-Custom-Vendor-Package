@@ -1,0 +1,27 @@
+{
+    "name": "pivotal/school",
+    "description": "",
+    "authors": [
+        {
+            "name": "Andrew Wolf",
+            "email": "a.james.wolf@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "classmap": [
+            "src/controllers",
+            "src/handlers",
+            "src/migrations",
+            "src/models",
+            "src/models/relations",
+            "src/repositories"
+        ],
+        "psr-0": {
+            "Pivotal\\School\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}

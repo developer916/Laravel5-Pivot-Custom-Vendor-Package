@@ -1,0 +1,55 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30/01/2015, 3:00:31 PM
+    Author     : tri.le
+*/
+
+.widgetdiv {
+    position: relative;
+}
+
+.widgetdiv .item {
+    position: absolute;
+}
+
+.horizontalbar .filled {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: right;
+}
+
+.dotbar .item {
+    padding: 5px;
+}
+
+.dotbar .dot {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+.highcharts-xaxis-labels, .highcharts-xaxis-labels span, .highcharts-xaxis-labels strong{
+    z-index: 0!important;
+    position:absolute;
+}
+
+.highcharts-tooltip
+{
+    position:absolute;
+    z-index:940;
+}
+
+.highcharts-tooltip > *
+{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 9px;
+    display: block;
+    position: absolute;
+    border: 1px solid #fff;
+
+}

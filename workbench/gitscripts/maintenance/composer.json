@@ -1,0 +1,24 @@
+{
+  "name": "gitscripts/maintenance",
+  "description": "maintenance package",
+  "authors": [
+    {
+      "name": "Andrew Wolf",
+      "email": "a.james.wolf@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "classmap": [
+      "src/Gitscripts/Maintenance/Providers"
+    ],
+    "psr-0": {
+      "Gitscripts\\Maintenance\\": "src/"
+    }
+  },
+  "minimum-stability": "stable"
+}

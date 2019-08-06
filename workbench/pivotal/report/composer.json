@@ -1,0 +1,28 @@
+{
+    "name": "pivotal/report",
+    "description": "",
+    "authors": [
+        {
+            "name": "Andrew Wolf",
+            "email": "a.james.wolf@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "classmap": [
+            "src/controllers",
+            "src/handlers",
+            "src/migrations",
+            "src/models",
+            "src/queue",
+            "src/models/collections",
+            "src/repositories"
+        ],
+        "psr-0": {
+            "Pivotal\\Report\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}

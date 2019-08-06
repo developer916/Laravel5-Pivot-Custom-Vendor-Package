@@ -1,0 +1,23 @@
+{
+    "name": "pivotal/admin",
+    "description": "",
+    "authors": [
+        {
+            "name": "Andrew Wolf",
+            "email": "a.james.wolf@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "classmap": [
+            "src/controllers",
+            "src/repositories"
+        ],
+        "psr-0": {
+            "Pivotal\\Admin\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}

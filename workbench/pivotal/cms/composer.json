@@ -1,0 +1,22 @@
+{
+    "name": "pivotal/cms",
+    "description": "",
+    "authors": [
+        {
+            "name": "Andrew Wolf",
+            "email": "a.james.wolf@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "classmap": [
+            "src/controllers"
+        ],
+        "psr-0": {
+            "Pivotal\\Cms\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}

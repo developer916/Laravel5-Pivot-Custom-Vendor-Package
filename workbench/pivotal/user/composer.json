@@ -1,0 +1,30 @@
+{
+    "name": "pivotal/user",
+    "description": "",
+    "authors": [
+        {
+            "name": "Andrew Wolf",
+            "email": "a.james.wolf@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "classmap": [
+            "src/controllers",
+            "src/facades",
+            "src/handlers",
+            "src/migrations",
+            "src/models",
+            "src/models/relations",
+            "src/models/collections",
+            "src/models/import",
+            "src/repositories"
+        ],
+        "psr-0": {
+            "Pivotal\\User\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}

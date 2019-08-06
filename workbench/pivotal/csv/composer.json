@@ -1,0 +1,26 @@
+{
+    "name": "pivotal/csv",
+    "description": "",
+    "authors": [
+        {
+            "name": "Andrew Wolf",
+            "email": "a.james.wolf@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "classmap": [
+            "src/controllers",
+            "src/facades",
+            "src/handlers",
+            "src/migrations",
+            "src/models"
+        ],
+        "psr-0": {
+            "Pivotal\\Csv\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}

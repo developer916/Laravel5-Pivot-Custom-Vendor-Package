@@ -1,0 +1,428 @@
+@media all {
+    .page-break {
+        display: none;
+    }
+}
+
+@media print {
+
+    #container {
+        margin-bottom: 0px !important;
+        float: left;
+    }
+
+    div#header_col {
+        display: none;
+    }
+
+    .area_of div {
+        color: #eeeeee;
+        text-shadow: 0 0 0 #fff;
+    }
+
+    .question-value-tick {
+        font-weight: normal !important;
+        color: #666 !important;
+    }
+
+    .remove_br {
+        display: none;
+    }
+
+    @page {
+        margin: 0;
+    }
+
+    body {
+        margin: 1cm;
+    }
+
+    .container {
+        margin-left: 10px;
+    }
+
+    .page-break {
+        display: block;
+        page-break-before: always;
+    }
+
+    .printonly {
+        display: block;
+    }
+
+    h2#header {
+        display: none;
+    }
+
+    .printonly {
+        width: 1024px !important;
+    }
+
+    #heatmap_intro {
+        width: 1024px !important;
+    }
+
+    #header_row div.text-right {
+        text-align: left;
+    }
+
+    #quick_look .group_type {
+        background-color: #3e6b9d !important;
+        color: white !important;
+    }
+
+    #quick_look .group_domain {
+        background-color: #7795BD !important;
+        color: white !important;
+    }
+
+    #quick_look .group_domain_txt {
+        background-color: #EBEEF5 !important;
+    }
+
+    #quick_look .box {
+        background-color: #72699b !important;
+        color: white !important;
+    }
+
+    #quick_look .circle {
+        background-color: #f7ac5e !important;
+        color: white !important;
+    }
+
+    #quick_look .quicklook_dist_chart li {
+        background-color: #B8B3CD !important;
+    }
+
+    #quick_look .quicklook_dist_chart li.highest {
+        background-color: #72699B !important;
+        border-color: #72699B !important;
+    }
+
+    #quick_look .quicklook_ave_chart li {
+        background-color: #D7D3E2 !important;
+        border-color: #D7D3E2 !important;
+    }
+
+    #quick_look .quicklook_ave_chart li div.ave_value {
+        background-color: #72699B !important;
+        color: #ffffff !important;
+    }
+
+    #quick_look .question_breakdown {
+        padding-bottom: 20px;
+    }
+
+    #quick_look .circle {
+        background-color: #f7ac5e;
+        border-radius: 63%;
+        color: white;
+        font-size: 15px;
+        height: 50px;
+        line-height: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 50px;
+    }
+
+    #quick_look .box {
+        background-color: #72699b;
+        color: white;
+        font-size: 20px;
+        height: 40px;
+        line-height: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 49px;
+    }
+
+    #quick_look .box_last {
+        background-color: #d4d5d6;
+        color: white;
+        font-size: 20px;
+        height: 40px;
+        line-height: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 49px;
+    }
+
+    .area_of.strength div {
+        background-color: #6084B0 !important;
+        color: #ffffff;
+    }
+
+    #content {
+        float: left;
+    }
+
+    table {
+        width: 1024px;
+    }
+
+    .area_of.strength {
+        position: relative;
+        width: 250px;
+    }
+
+    .area_of.strength div {
+        border: 15px solid rgb(96, 132, 176);
+        position: absolute;
+        height: 0px;
+        width: 100%;
+        line-height: 1px;
+        padding: 0px !important;
+    }
+
+    .area_of_desc {
+        width: 700px;
+        position: relative;
+    }
+
+    .area_of_desc div {
+        background-color: #EDEDEE;
+        margin-bottom: 4px;
+        padding: 0px !important;
+        position: relative;
+        height: 0px;
+        width: 100%;
+        border: 15px solid rgb(237, 237, 238);
+        line-height: 1px;
+    }
+
+    .area_of_statement {
+        background-color: #EDEDEE;
+        margin-bottom: 4px;
+        display: inline-flex;
+        font-size: 16px;
+        padding: 0px !important;
+        border: 16px solid rgb(237, 237, 238);
+        line-height: 0px;
+
+        height: 0px;
+        width: 100%;
+        margin-top: 3px; /*33px;*/
+    }
+
+    .area_of.growth {
+        width: 230px;
+        position: relative;
+    }
+
+    .area_of.growth div {
+        background-color: #9690B6;
+        position: absolute;
+        width: 100%;
+        height: 0px;
+        line-height: 0px;
+        border: 15px solid #9690B6;
+        padding: 0px !important;
+    }
+
+    .area_of.growth div {
+        background-color: #9690B6 !important;
+        color: #ffffff;
+    }
+
+    .area_of_desc div {
+        background-color: #EDEDEE !important;
+    }
+
+    .area_of_statement {
+        background-color: #EDEDEE !important;
+    }
+
+    .standard_scoring div {
+        background-color: #9d94b8 !important;
+        color: #ffffff !important;
+    }
+
+    .standard_scoring_results {
+        background-color: #736699 !important;
+        color: #ffffff !important;
+    }
+
+    #bar_graph #averages .average_text {
+        background-color: #FAC589 !important;
+        color: #ffffff !important;
+    }
+
+    #bar_graph #averages .average_item .number {
+        background-color: #FAC589 !important;
+        color: #ffffff !important;
+    }
+
+    #bar_graph #averages .average_item .value {
+        background-color: #f7ac5f !important;
+        color: #ffffff !important;
+    }
+
+    #bar_graph #circle {
+        background-color: #f7ac5f !important;
+    }
+
+    #scatter_plot .desc_title,
+    #comparison_table .desc_title {
+        background-color: #EDEDEE !important;
+    }
+
+    #bar_graph #averages {
+        width: 1100px;
+    }
+
+    #bar_graph #average_scores {
+        width: 1100px !important;
+    }
+
+    #bar_graph #averages .average_text {
+        width: 180px;
+    }
+
+    #bar_graph #averages .average_item {
+        margin-left: 34px;
+    }
+
+    #bar_graph #averages .average_item:nth-child(2) {
+        margin-left: -18px;
+    }
+
+    #bar_graph #averages .average_item:nth-child(3) {
+        margin-left: -28px;
+    }
+
+    #bar_graph #averages .average_item:nth-child(4) {
+        margin-left: -28px;
+    }
+
+    #bar_graph #averages .average_item:nth-child(5) {
+        margin-left: -30px;
+    }
+
+    #quick_look .question {
+        font-size: 80%;
+    }
+
+    #quick_look .chart {
+        max-width: 75%;
+    }
+
+    #bar_graph .block_title {
+        page-break-after: avoid;
+    }
+
+    #bar_graph .questionblock,
+    #quick_look .question_breakdown {
+        page-break-inside: avoid;
+    }
+
+    .tab-content > .tab-pane {
+        display: block;
+        visibility: visible;
+    }
+
+    .printing_btn {
+        display: none;
+    }
+
+    .area_of div {
+
+        fill: #fff;
+
+    }
+
+    /*new style moved here*/
+    #tab-content {
+        float: left !important;
+    }
+
+    #quick_look .quicklook_dist_chart li {
+        border: 15px solid #B8B3CD;
+        line-height: 0px !important;
+        width: 0px !important;
+    }
+
+    #quick_look .quicklook_dist_chart li.highest {
+        /* background-color: #72699B; */
+        border-color: #72699B !important;
+        border-width: 15px !important;
+        line-height: 0px !important;
+        padding: 0px !important;
+        width: 0px !important;
+    }
+
+    .standard_scoring div {
+        border: 13px solid rgb(157, 148, 184);
+        background-color: #9D94B8 !important;
+        color: #FFF !important;
+        line-height: 0px;
+        padding: 0px !important;
+    }
+
+    .standard_scoring_results {
+        background-color: #736699 !important;
+        color: #FFF !important;
+        border: 20px solid #736699;
+        line-height: 0px;
+        padding: 0px !important;
+        font-weight: normal !important;
+    }
+
+    .question_group {
+        float: left !important;
+    }
+
+    .question_content1 {
+        width: 80px !important;
+        float: left !important;
+    }
+
+    .question_content2 {
+        width: 600px !important;
+        float: left !important;
+    }
+
+    .question_content3 {
+        width: 320px !important;
+        float: left !important;
+    }
+
+    #quick_look .dist_response {
+        top: -45px;
+        left: -10px;
+    }
+
+    .question_breakdown, .question {
+        width: 1200 !important;
+    }
+
+    .question_group {
+        width: 1200 !important;
+        float: left;
+        position: relative;
+    }
+
+    .question_block {
+        width: 1200 !important;
+    }
+
+    .question_content {
+        width: 1200 !important;
+    }
+
+    #quick_look .question_number {
+        width: 100px !important;
+        float: left !important;
+    }
+
+    .content_header {
+        clear: both !important;
+    }
+
+    #standard2 {
+        margin-top: 80px !important;
+    }
+
+}
